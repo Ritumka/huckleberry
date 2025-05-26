@@ -11,21 +11,41 @@ body {
 
 /* Add styles here! */
 
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 .max-width-wrapper {
-  margin: 32px 96px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px 24px;
 }
 
 .intro-chunk {
-  margin: 48px;
-  max-width: 320px;
-  padding: 32px 0px;
+  max-width: 415px;
+  padding-top: 96px;
+  padding-bottom: 64px;
 }
 
 main {
   background: hsl(0deg, 0%, 30%);
   height: 100%;
-  padding: 8px 16px;
-  border-top: solid 6px hsl(0deg, 0%, 60%);
+  border-top: solid 8px hsl(0deg, 0%, 60%);
+  padding: 64px 0px;
 }
 
 strong {
@@ -33,17 +53,22 @@ strong {
 }
 
 .indented-heading {
-  margin: 8px 0px 0px -32px;
+  width: fit-content;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-left: -32px;
+  margin-top: -16px;
+  margin-bottom: 1rem;
   padding: 16px 32px;
-  max-width: 410px;
   background: hsl(45deg, 100%, 50%);
-  border-bottom: solid 6px hsl(45deg, 100%, 40%);
+  border-bottom: solid 8px hsl(45deg, 100%, 40%);
 }
 
 .card {
-  padding: 8px 24px;
   background: hsl(0deg, 0%, 100%);
-  max-width: 700px;
+  padding: 24px;
+  margin: 0 -24px;
 }
 
 /* 8px
